@@ -1,0 +1,14 @@
+
+html {
+  background-image: url('./img/bgc.png') ;
+}
+
+body {
+  color: #FFFFFF;
+}
+
+.container {
+  max-width:  1000px;
+  margin:  0 auto;
+}
+
