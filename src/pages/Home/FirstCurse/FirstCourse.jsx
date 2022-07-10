@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import C from "./Css.module.css";
+import C from "./FirstCourse.module.scss";
 
 
-export default function Component1() {
+export default function FirstCurse() {
 
 
   return (

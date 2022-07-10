@@ -1,7 +1,7 @@
 import React from "react";
 import H from "./Header.module.css";
 import logo from "../../../img/logo.png";
-import Component1 from "../Component1/Component1";
+import FirstCourse from "../FirstCurse/FirstCourse";
 
 export default function Header() {
   return (
@@ -26,7 +26,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <Component1/>
+      <FirstCourse/>
     </div>
   );
 }
