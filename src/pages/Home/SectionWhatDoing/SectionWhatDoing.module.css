@@ -1,0 +1,11 @@
+.container {
+  margin: 200px 0;
+  display: flex;
+  justify-content: space-between; }
+  .container_WhatDoing {
+    max-width: 640px; }
+    .container_WhatDoing_h3 {
+      font-size: 48px;
+      margin-bottom: 45px; }
+    .container_WhatDoing_p {
+      font-size: 20px; }
