@@ -1,11 +1,17 @@
 import React from "react";
 import C from "./SectionWhatDoing.module.css";
+import imagePC from './image.png'
 
 export default function SectionWhatDoing() {
   return (
     <>
       <div className={C.container}>
-        <div className={C.container_img}></div>
+        <div className={C.container_img}>
+
+ <img src={imagePC} alt="MDN" />
+ 
+
+          </div>
         <div className={C.container_WhatDoing}>
           <h3 className={C.container_WhatDoing_h3}>Чем мы занимаемся?</h3>
           <p className={C.container_WhatDoing_p}>
