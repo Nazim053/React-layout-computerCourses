@@ -6,6 +6,7 @@ html {
 body {
   color: #FFFFFF;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 .container {

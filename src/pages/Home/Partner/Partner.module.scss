@@ -1,0 +1,41 @@
+
+
+
+.logoPartner {
+    max-width: 127px;
+}
+
+.imgMsiStyles {
+    max-width: 198px;
+}
+
+
+
+.partner_top_container {
+    margin-top: 230px;
+&_title_flex {
+    display: flex;
+    align-items: center;
+}
+
+&_title {
+    font-size: 48px;
+}
+
+&_grid {
+    margin-top: 90px;
+    margin-bottom: 250px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-items: center;
+    &_block {
+        
+            :nth-child(2) {
+            border-left: 1px solid #FFFFFF;
+            border-bottom: 1px solid #FFFFFF;
+            border-right: 1px solid #FFFFFF;
+        }
+    }
+}
+
+}
